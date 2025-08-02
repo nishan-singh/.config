@@ -1,6 +1,10 @@
-*
+/*
 
 !.gitignore
 !hypr/
 !swaync/
 !rofi/
+
+hypr/**
+swaync/**
+rofi/**
