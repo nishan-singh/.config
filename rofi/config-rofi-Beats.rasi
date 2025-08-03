@@ -1,0 +1,36 @@
+/* ---- 💫 https://github.com/JaKooLit 💫 ---- */
+/* Rofi Beats Config */
+
+@import "~/.config/rofi/config.rasi" 
+
+/* ---- Entry ---- */ 
+entry {
+  placeholder: "📻 Choose Media";
+}
+
+/* ---- Listview ---- */
+listview {
+  columns: 1;
+  lines: 8;
+  fixed-height: false;
+  margin:     12px 0 0;
+  scrollbar: true;
+  spacing: 6px;
+  cycle: true;
+}
+
+/* ---- Elements ---- */
+element {
+  orientation: horizontal;
+}
+
+element-icon {
+  size: 0%;
+}
+
+element-text {
+  horizontal-align: 0.0;
+  vertical-align: 0.5;
+  margin: 0px;
+  padding: 0px;
+}
